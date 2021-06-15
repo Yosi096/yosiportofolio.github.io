@@ -26,7 +26,8 @@
                 <li><a href="#about" class="menu-btn">About</a></li>
                 <li><a href="#services" class="menu-btn">Services</a></li>
                 <li><a href="#skills" class="menu-btn">Skills</a></li>
-                <li><a href="#teams" class="menu-btn">Teams</a></li>
+                <li><a href="#teams" class="menu-btn">Certificate</a></li>
+                <li><a href="#project" class="menu-btn">My Project</a></li>
                 <li><a href="#contact" class="menu-btn">Contact</a></li>
             </ul>
             <div class="menu-btn">
@@ -224,6 +225,52 @@
                         <div class="text">Sertifikat Kompeten</div>
                         <p>Kompetensi Keahlian Kejuruan.</p>
                         <a href="images/sertif-6.jpg">Detail</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+      <!-- project section start -->
+      <section class="project" id="project">
+        <div class="max-width">
+            <h2 class="title">My project</h2>
+            <div class="carousel owl-carousel">
+            <div class="card">
+                    <div class="box">
+                        <img src="images/API27.png" alt="">
+                        <div class="text">Back-end</div>
+                        <p>Untuk Aplikasi Unit Kegiatan Mahasiswa.</p>
+                        <a href="api.html">Detail</a>
+                    </div>
+                </div>
+                <div class="card">
+                    <div class="box">
+                        <img src="images/andro-1.jpg" alt="">
+                        <div class="text">Android</div>
+                        <p>Sistem informasi Covid-19.</p>
+                        <a href="foto1.html">Detail</a>
+                        <a href="files/InfoCov.apk">Download Apk</a>
+                        <a href="https://github.com/Yosi096/Pengembangan-Aplikasi-Mobile">Github</a>
+
+                    </div>
+                </div>
+                <div class="card" >
+                    <div class="box">
+                        <img src="foto2/foto2-1.jpg" alt="">
+                        <div class="text">Android</div>
+                        <p>Stegonografi sederhana.</p>
+                        <a href="foto2.html">Detail</a>
+                        <a href="https://github.com/Yosi096/steganographer">Github</a>
+                    </div>
+                </div>
+                <div class="card">
+                    <div class="box">
+                        <img src="images/andro-2.jpg" alt="">
+                        <div class="text">Android</div>
+                        <p>Chart.</p>
+                        <a href="foto3.html">Detail</a>
+                        <a href="https://github.com/Yosi096/MPchart-magang">Github</a>
                     </div>
                 </div>
             </div>

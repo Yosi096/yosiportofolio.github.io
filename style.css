@@ -35,7 +35,7 @@ section{
     padding: 0 80px;
     margin: auto;
 }
-.about, .services, .skills, .teams, .contact, footer{
+.about, .services, .skills, .teams, .contact, .project, footer{
     font-family: 'Poppins', sans-serif;
 }
 .about .about-content,
@@ -207,15 +207,24 @@ section .title::after{
     border-radius: 6px;
     transition: all 0.3s ease;
 }
+
+.project a{
+    display: inline-block;
+    background: #222;
+    color: #fff;
+    font-size: 17px;
+    padding: 8px 36px;
+    margin-top: 20px;
+    font-weight: 400;
+    border-radius: 6px;
+    transition: all 0.3s ease;
+}
 .home .home-content a:hover{
     color: #BF4C41;
     background: none;
 }
 
 /* about section styling */
-.about .title::after{
-    content: "who i am";
-}
 .about .about-content .left{
     width: 45%;
 }
@@ -257,7 +266,7 @@ section .title::after{
 }
 
 /* services section styling */
-.services, .teams{
+.services, .teams, .contact{
     color:#fff;
     background: #111;
 }
@@ -268,7 +277,6 @@ section .title::after{
 .services .title::after,
 .teams .title::after{
     background: #111;
-    content: "what i provide";
 }
 .services .serv-content .card{
     width: calc(33% - 20px);
@@ -304,9 +312,6 @@ section .title::after{
 
 /* skills section styling */
 
-.skills .title::after{
-    content: "what i know";
-}
 .skills .skills-content .column{
     width: calc(50% - 30px);
 }
@@ -377,10 +382,78 @@ section .title::after{
     width: 70%;
 }
 
-/* teams section styling */
-.teams .title::after{
-    content: "who with me";
+.skills a {
+    display: inline-block;
+    background: #FCC0C5;
+    color: #000;
+    font-size: 16px;
+    padding: 16px 70px;
+    margin-top: 20px;
+    font-weight: 400;
+    border-radius: 10px;
+    transition: all 0.3s ease;
 }
+
+/* project section styling */
+.project .carousel .card{
+    background: #BF4C41;
+    border-radius: 6px;
+    padding: 25px 35px;
+    text-align: center;
+    overflow: hidden;
+    transition: all 0.3s ease;
+}
+.project .carousel .card:hover{
+    background: #FCC0C5;
+}
+.project .carousel .card .box{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    transition: all 0.3s ease;
+}
+.project .carousel .card:hover .box{
+    transform: scale(1.05);
+}
+.project .carousel .card .text{
+    font-size: 25px;
+    font-weight: 500;
+    margin: 10px 0 7px 0;
+}
+.project .carousel .card img{
+    padding: 10px;
+    height: 500px;
+    width: 400px;
+    object-fit: fill;
+    transition: all 0.3s ease;
+}
+.project .carousel .card:hover img{
+    border-color: #000;
+}
+.owl-dots{
+    text-align: center;
+    margin-top: 20px;
+}
+.owl-dot{
+    height: 13px;
+    width: 13px;
+    margin: 0 5px;
+    outline: none!important;
+    border-radius: 50%;
+    border: 2px solid #BF4C41!important;
+    transition: all 0.3s ease;
+}
+.owl-dot.active{
+    width: 35px;
+    border-radius: 14px;
+}
+.owl-dot.active,
+.owl-dot:hover{
+    background: #BF4C41!important;
+}
+
+/* teams section styling */
 .teams .carousel .card{
     background: #222;
     border-radius: 6px;
@@ -441,9 +514,6 @@ section .title::after{
 }
 
 /* contact section styling */
-.contact .title::after{
-    content: "get in touch";
-}
 .contact .contact-content .column{
     width: calc(50% - 30px);
 }
@@ -474,7 +544,7 @@ section .title::after{
     font-weight: 500;
 }
 .contact .contact-content .info .sub-title{
-    color: #333;
+    color: #fff;
 }
 .contact .right form .fields{
     display: flex;
@@ -554,7 +624,7 @@ section .title::after{
 }
 /* footer section styling */
 footer{
-    background: #111;
+    background: #BF4C41;
     padding: 15px 23px;
     color: #fff;
     text-align: center;
