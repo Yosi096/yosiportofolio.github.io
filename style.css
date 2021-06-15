@@ -217,6 +217,7 @@ section .title::after{
     margin-top: 20px;
     font-weight: 400;
     border-radius: 6px;
+    width: 300px;
     transition: all 0.3s ease;
 }
 .home .home-content a:hover{
@@ -398,7 +399,7 @@ section .title::after{
 .project .carousel .card{
     background: #BF4C41;
     border-radius: 6px;
-    padding: 25px 35px;
+    padding: 15px 15px;
     text-align: center;
     overflow: hidden;
     transition: all 0.3s ease;
@@ -422,10 +423,10 @@ section .title::after{
     margin: 10px 0 7px 0;
 }
 .project .carousel .card img{
-    padding: 10px;
-    height: 500px;
-    width: 400px;
-    object-fit: fill;
+    padding: 1px;
+    height: 300px;
+    width: 300px;
+    object-fit: cover;
     transition: all 0.3s ease;
 }
 .project .carousel .card:hover img{
