@@ -179,6 +179,14 @@
                         <a href="images/sertif-1.jpg">Detail</a>
                     </div>
                 </div>
+                <div class="card">
+                    <div class="box">
+                        <img src="images/sertif-5.jpg" alt="">
+                        <div class="text">Coursera</div>
+                        <p>Build an E-commerce Dashbord With Figma.</p>
+                        <a href="images/sertif-5.jpg">Detail</a>
+                    </div>
+                </div>
                 <div class="card" >
                     <div class="box">
                         <img src="images/sertif-3.jpg" alt="">
@@ -201,14 +209,6 @@
                         <div class="text">Pelatihan BPPTIK</div>
                         <p>Junior Office Operator</p>
                         <a href="images/sertif-4.jpg">Detail</a>
-                    </div>
-                </div>
-                <div class="card">
-                    <div class="box">
-                        <img src="images/sertif-5.jpg" alt="">
-                        <div class="text">Coursera</div>
-                        <p>Build an E-commerce Dashbord With Figma.</p>
-                        <a href="images/sertif-5.jpg">Detail</a>
                     </div>
                 </div>
                 <div class="card">
@@ -262,15 +262,6 @@
                         <p>Stegonografi sederhana.</p>
                         <a href="foto2.html">Detail</a>
                         <a href="https://github.com/Yosi096/steganographer">Github</a>
-                    </div>
-                </div>
-                <div class="card">
-                    <div class="box">
-                        <img src="images/andro-2.jpg" alt="">
-                        <div class="text">Android</div>
-                        <p>Chart.</p>
-                        <a href="foto3.html">Detail</a>
-                        <a href="https://github.com/Yosi096/MPchart-magang">Github</a>
                     </div>
                 </div>
             </div>
