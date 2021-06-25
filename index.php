@@ -115,9 +115,9 @@
                     <div class="bars">
                         <div class="info">
                             <span>JavaScript</span>
-                            <span>70%</span>
+                            <span>60%</span>
                         </div>
-                        <div class="line mysql"></div>
+                        <div class="line css"></div>
                     </div>
                     <div class="bars">
                         <div class="info">
@@ -294,7 +294,7 @@
                             <i class="fas fa-envelope"></i>
                             <div class="info">
                                 <div class="head">Email</div>
-                                <div class="sub-title">yorermrd@gmail.com</div>
+                                <div class="sub-title">yorermrs@gmail.com</div>
                             </div>
                         </div>
                     </div>
