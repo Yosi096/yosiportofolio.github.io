@@ -59,10 +59,11 @@
                 </div>
                 <div class="column right">
                     <div class="text">Saya Yosi Mardianti dan saya <span class="typing-2"></span></div>
-                    <p>Saya merupakan S1 Teknik Informatika lulusan dari Institut Teknologi Sumatera tahun 2021. Saya berkuliah sejak Oktober 2017 hingga Juli 2021. 
-                        Saat ini saya masih mencari perkerjaan dan mengasah <i>skill</i> saya dengan mengikuti beberapa pelatihan yang ada seperti BPPTIK, Digital Talent dll serta dengan belajar mandiri. Untuk fokus kemampuan yang saya asah yaitu <i>Back-end, UX Researcher</i> dan <i>Scrum Master</i>
+                    <p>Saya merupakan S1 Teknik Informatika lulusan dari Institut Teknologi Sumatera tahun 2021 dengan IPK 3,29. Saya berkuliah sejak Oktober 2017 hingga Juli 2021. 
+                        Setelah lulus saya memutuskan untuk lebih fokus ke front-end developer khususnya web. Pada akhir Agustus 2021 saya memulai pekerjaan pertama saya yaitu sebagai <b><i>Front-End Developer</i></b> di salah satu perusahaan yg terlaetak di Jakarta Pusat. 
+                        <!-- Saat ini saya masih mencari perkerjaan dan mengasah <i>skill</i> saya dengan mengikuti beberapa pelatihan yang ada seperti BPPTIK, Digital Talent dll serta dengan belajar mandiri. Untuk fokus kemampuan yang saya asah yaitu <i>Back-end, UX Researcher</i> dan <i>Scrum Master</i> -->
                     </p>
-                    <a href="files/mycv.pdf">Download CV</a>
+                    <a href="files/cvyosi.pdf">Lihat CV</a>
                 </div>
             </div>
         </div>
@@ -77,14 +78,14 @@
                     <div class="box">
                         <i class="fas fa-code"></i>
                         <div class="text">Backend</div>
-                        <p>Dengan menggunakan Node.js Framework Expres.js/Nest.js dan database MongoDB/MySql</p>
+                        <p>Dengan menggunakan Node.js Framework Expres.js dan database MongoDB</p>
                     </div>
                 </div>
                 <div class="card">
                     <div class="box">
                         <i class="fas fa-blog"></i>
-                        <div class="text">Web</div>
-                        <p>Dengan menggunakan HTML/React JS, front-end sederhana.</p>
+                        <div class="text">Front-End Web</div>
+                        <p>Dengan menggunakan HTML/PHP/JS, Framework CI.</p>
                     </div>
                 </div>
                 <div class="card">
@@ -107,59 +108,65 @@
                 <div class="column left">
                     <div class="text">Keterampilan & Pengalaman.</div>
                     <p>Saat ini saya telah mempelajari beberapa bahasa pemrograman dan penyelesaian beberapa proyek dari tugas besar kuliah dan tugas akhir saya.
-                        Selain itu juga saya telah melaksanakan <i>Internship</i> sebagai <i>Backend</i> dan <i>Android Developer</i>. Saya juga mengikuti pelatihan yang diadakan BPPTIK dan Digitil Talent. Saya juga mengikuti kursus dari Coursera dan Dicoding. Serta 
-                        saya juga belajar mandiri dari beberapa tutorial dan hasil perkuliahan saya. Saya juga memiliki kemampuan basic pada bidang jaringan karena sebelumnya saya SMK Jaringan. 
+                        Selain itu juga saya telah melaksanakan <i>Internship</i> sebagai <i>Backend</i> dan <i>Android Developer</i>. Saat ini saya sedang bekerja sebagai <b>Front End Web Developer</b>.
                     </p>
                 </div>
                 <div class="column right">
                     <div class="bars">
                         <div class="info">
                             <span>JavaScript</span>
-                            <span>60%</span>
+                            <span>85%</span>
                         </div>
-                        <div class="line css"></div>
+                        <div class="line js"></div>
                     </div>
                     <div class="bars">
                         <div class="info">
-                            <span>ReactJs</span>
-                            <span>50%</span>
+                            <span>PHP</span>
+                            <span>80%</span>
                         </div>
                         <div class="line php"></div>
                     </div>
                     <div class="bars">
                         <div class="info">
-                            <span>MongoDB</span>
-                            <span>60%</span>
+                            <span>ReactJs</span>
+                            <span>75%</span>
                         </div>
-                        <div class="line css"></div>
+                        <div class="line reactjs"></div>
+                    </div>
+                    <div class="bars">
+                        <div class="info">
+                            <span>MongoDB</span>
+                            <span>70%</span>
+                        </div>
+                        <div class="line figma"></div>
                     </div>
                     <div class="bars">
                         <div class="info">
                             <span>HTML</span>
-                            <span>60%</span>
+                            <span>90%</span>
                         </div>
-                        <div class="line css"></div>
+                        <div class="line html"></div>
                     </div>
                     <div class="bars">
                         <div class="info">
                             <span>CSS</span>
-                            <span>60%</span>
+                            <span>90%</span>
                         </div>
-                        <div class="line css"></div>
+                        <div class="line html"></div>
                     </div>
                     <div class="bars">
                         <div class="info">
                             <span>MySQL</span>
                             <span>60%</span>
                         </div>
-                        <div class="line css"></div>
+                        <div class="line mysql"></div>
                     </div>
                     <div class="bars">
                         <div class="info">
                             <span>UI Figma</span>
                             <span>50%</span>
                         </div>
-                        <div class="line php"></div>
+                        <div class="line figma"></div>
                     </div>
                 </div>
             </div>
@@ -273,8 +280,8 @@
         <div class="max-width">
             <h2 class="title">Contact me</h2>
             <div class="contact-content">
-                <div class="column left">
-                    <div class="text">Get in Touch</div>
+                <div class="column center">
+                    <!-- <div class="text">Get in Touch</div> -->
                     <div class="icons">
                         <div class="row">
                             <i class="fas fa-user"></i>
@@ -297,9 +304,17 @@
                                 <div class="sub-title">yorermrs@gmail.com</div>
                             </div>
                         </div>
+                        <div class="row">
+                            <!-- <i class="fa fa-linkedin"></i> -->
+                            <i class="fab fa-linkedin-in"></i>
+                            <div class="info">
+                                <div class="head">Linkedin</div>
+                                <div class="sub-title">https://www.linkedin.com/in/yosi-mardianti</div>
+                            </div>
+                        </div>
                     </div>
                 </div>
-                <div class="column right">
+                <!-- <div class="column right">
                     <div class="text">Message me</div>
                     <form class="contact-form" action="#" method="POST">
                         <div class="fields">
@@ -320,7 +335,7 @@
                             <div class="error-box"></div>
                         </div>
                     </form>
-                </div>
+                </div> -->
             </div>
         </div>
     </section>

@@ -227,7 +227,7 @@ section .title::after{
 
 /* about section styling */
 .about .about-content .left{
-    width: 45%;
+    width: 30%;
 }
 .about .about-content .left img{
     height: 400px;
@@ -236,7 +236,7 @@ section .title::after{
     border-radius: 6px;
 }
 .about .about-content .right{
-    width: 55%;
+    width: 60%;
 }
 .about .about-content .right .text{
     font-size: 25px;
@@ -370,16 +370,20 @@ section .title::after{
 .skills-content .right .html::before{
     width: 90%;
 }
-.skills-content .right .css::before{
+.skills-content .right .mysql::before{
     width: 60%;
 }
 .skills-content .right .js::before{
-    width: 80%;
+    width: 85%;
 }
 .skills-content .right .php::before{
-    width: 50%;
+    width: 80%;
 }
-.skills-content .right .mysql::before{
+.skills-content .right .reactjs::before{
+    width: 75%;
+}
+
+.skills-content .right .figma::before{
     width: 70%;
 }
 

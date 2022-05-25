@@ -7,6 +7,10 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Contoh API</title>
   <style>
+    * {
+      box-sizing: border-box;
+    }
+
     table {
       font-family: arial, sans-serif;
       border-collapse: collapse;
@@ -37,10 +41,22 @@
       text-align: justify;
       font-size: 18px;
     }
+    body{
+      text-align: center;
+      margin: 0
+    }
+    .header {
+      padding: 80px;
+      text-align: center;
+    }
+    .text_judul{
+      width: 60%;
+    }
   </style>
 </head>
 <body>
-  <p>Berikut ini merupakan beberapa endpoint yang dapat diakses dari total 70 endpoint yang telah saya buat sebelumnya pada tugas akhir saya.
+<div class="header">
+  <p class="text_judul">Berikut ini merupakan beberapa endpoint yang dapat diakses dari total 70 endpoint yang telah saya buat sebelumnya pada tugas akhir saya.
     Endpoint ini merupakan endpoint yang digunakan untuk aplikasi Unit Kegiatan Mahasiswa Institut Teknologi Sumatera.
   </p>
 
@@ -82,5 +98,6 @@
       <td><a href="https://myukm.herokuapp.com/api/v1/ukm/search/searchNewsAnnoun?search=itera">{{host}}/api/v1/ukm/search/searchNewsAnnoun?search=itera</a></td>
     </tr>
   </table>
+<div>
 </body>
 </html>
