@@ -60,7 +60,7 @@
                 <div class="column right">
                     <div class="text">Saya Yosi Mardianti dan saya <span class="typing-2"></span></div>
                     <p>Saya merupakan S1 Teknik Informatika lulusan dari Institut Teknologi Sumatera tahun 2021 dengan IPK 3,29. Saya berkuliah sejak Oktober 2017 hingga Juli 2021. 
-                        Setelah lulus saya memutuskan untuk lebih fokus ke front-end developer khususnya web. Pada akhir Agustus 2021 saya memulai pekerjaan pertama saya yaitu sebagai <b><i>Front-End Developer</i></b> di salah satu perusahaan yg terlaetak di Jakarta Pusat. 
+                        Setelah lulus saya memutuskan untuk lebih fokus ke front-end developer khususnya web. Pada akhir Agustus 2021 saya memulai pekerjaan pertama saya yaitu sebagai <b><i>Front-End Developer</i></b> di salah satu perusahaan yg terletak di Jakarta Pusat. 
                         <!-- Saat ini saya masih mencari perkerjaan dan mengasah <i>skill</i> saya dengan mengikuti beberapa pelatihan yang ada seperti BPPTIK, Digital Talent dll serta dengan belajar mandiri. Untuk fokus kemampuan yang saya asah yaitu <i>Back-end, UX Researcher</i> dan <i>Scrum Master</i> -->
                     </p>
                     <a href="files/cvyosi.pdf">Lihat CV</a>
