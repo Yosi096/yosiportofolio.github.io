@@ -1,0 +1,172 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>W3.CSS Template</title>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Raleway">
+<style>
+body,h1,h2,h3,h4,h5 {font-family: "Raleway", sans-serif}
+body { padding: 50px}
+</style>
+</head>
+<body class="w3-light-grey">
+<div class="w3-content" style="max-width:1400px">
+    <!-- Header -->
+    <header class="w3-container w3-center w3-padding-32"> 
+    <h1><b>Front-End MyUKM</b></h1>
+    <!-- <p>Welcome to the blog of <span class="w3-tag">unknown</span></p> -->
+    </header>
+
+    <!-- Grid -->
+    <div class="w3-row">
+
+        <!-- Blog entries -->
+        <div class="w3-col l8 s12">
+        <!-- Blog entry -->
+        <div class="w3-card-4 w3-margin w3-white">
+            <div class="w3-container">
+            <h3><b>Deskripsi Aplikasi</b></h3>
+            </div>
+
+            <div class="w3-container">
+            <p>Aplikasi MyUKM merupakan project Tugas Akhir, yang dikerjakan secara berkelompok dengan 3 orang yang terbagi menjadi UI/UX Desaign, Front-End dan Back-End. Pada bagian Front-End, aplikasi dibuat dengan menggunakan ReactJs. Pengguna MyUKM terbagi menjadi 3 role yaitu : ,
+                <ol>
+                    <li>User<br>Pengguna dengan role ini adalah mahasiswa.</li>
+                    <li>Admin<br>Pengguna dengan role ini adalah mahasiswa yang menjabat sebagai pengurus UKM.</li>
+                    <li>Superadmin<br>Pengguna dengan role ini adalah pihak akademik yang bertanggung jawab terhadap UKM ITERA.</li>
+                </ol>
+            </p>
+            </div>
+        </div>
+        <hr>
+
+        <!-- Blog entry -->
+        <div class="w3-card-4 w3-margin w3-white">
+            <div class="w3-container">
+            <h3><b>Deskripsi Menu</b></h3>
+            </div>
+
+            <div class="w3-container">
+            <p>Terdapat beberapa perbedaan menu untuk setiap role. Namun untuk menu Home selalu sama pada setiap role, yang mana pada menu ini menampilkan berita dan pengumuman. Berikut penjelasannya :
+                <ol>
+                    <li>Role Admin</li>
+                        <ul>
+                            <li>Menu UKM</li>
+                            Pada menu ini terdapat sub menu lagi yaitu Tentang, Pengurus, Anggota dan Berita/Pengumuman. Pada sub menu tersebut terdapat RUD.
+                            <li>Menu Tambah</li>
+                            Pada menu ini terdapat sub menu lagi yaitu Berita, Pengumuman dan File. Pada sub menu tersebut hanya terdapat Create.
+                            <li>Menu Profile</li>
+                            Pada menu ini terdapat sub menu lagi yaitu Edit Akun, Lihat Detail Anggota, Lihat Kritik Saran dan Lihat File. pada sub menu tersebut terdapat CRUD.
+                        </ul>
+                    <li>Role Superadmin</li>
+                        <ul>
+                            <li>Menu UKM</li>
+                            Pada menu ini menampilkan semua UKM yang terdaftar di aplikasi. Dan terdapat 2 sub menu yaitu untuk menambahkan akun dengan role user dan dengan role superadmin.
+                            <li>Menu FILE</li>
+                            Pada menu ini menampilkan file-file yang dikirim oleh admin UKM.
+                            <li>Menu Master</li>
+                            Pada menu ini berisi CRUD untuk master bidang UKM, tipe file, program studi dan tahun kepengurusan.
+                            <li>Menu Profile</li>
+                            Pada menu ini menampilkan data pengguna yang dapat di ubah.
+                        </ul>
+                    <li>Role User</li>
+                        <ul>
+                            <li>Menu UKM</li>
+                            Pada menu ini menampilkan informasi seluruh UKM yang terdaftar di aplikasi.
+                            <li>Menu MYUKM</li>
+                            Pada menu ini menampilkan informasi UKM yang pengguna terdaftar sebagai anggota UKM.
+                            <li>Menu Profile</li>
+                            Pada menu ini menampilkan data pengguna yang dapat di ubah.
+                        </ul>
+                </ol>
+            </p>
+            <div class="w3-row">
+                <div class="w3-col m8 s12">
+                <p><a href="https://adminukm.herokuapp.com/" class="w3-button w3-padding-large w3-white w3-border"><b>Lihat Web MyUKM »</b></a></p>
+                </div>
+            </div>
+            </div>
+        </div>
+        <!-- END BLOG ENTRIES -->
+        </div>
+
+        <!-- Introduction menu -->
+        <div class="w3-col l4">
+            <!-- About Card -->
+            <div class="w3-card w3-margin w3-margin-top">
+                <img src="images/homemyukm.png" alt="" style="width:100%">
+
+                    <div class="w3-container w3-white">
+                    <h6><b>Home Admin</b></h6>
+                    <table style="margin-bottom:10px;">
+                        <tr>
+                            <td>username</td>
+                            <td>:</td>
+                            <td>admin1</td>
+                        </tr>
+                        <tr>
+                            <td>password</td>
+                            <td>:</td>
+                            <td>jalanjalan</td>
+                        </tr>
+                    </table>
+                    </div>
+            </div><hr>
+            <!-- END Introduction Menu -->
+        </div>
+
+        <div class="w3-col l4">
+            <!-- About Card -->
+            <div class="w3-card w3-margin w3-margin-top">
+                <img src="images/homesuperadmin.png" alt="" style="width:100%">
+            
+                <div class="w3-container w3-white">
+                    <h6><b>Home Superadmin</b></h6>
+                    <table style="margin-bottom:10px;">
+                        <tr>
+                            <td>username</td>
+                            <td>:</td>
+                            <td>superadmin1</td>
+                        </tr>
+                        <tr>
+                            <td>password</td>
+                            <td>:</td>
+                            <td>jalanjalan</td>
+                        </tr>
+                    </table>
+                </div>
+            </div><hr>
+        </div>
+
+        <div class="w3-col l4">
+            <!-- About Card -->
+            <div class="w3-card w3-margin w3-margin-top">
+                <img src="images/homeuser.png" alt="" style="width:100%">
+            
+                <div class="w3-container w3-white">
+                    <h6><b>Home User</b></h6>
+                    <table style="margin-bottom:10px;">
+                        <tr>
+                            <td>username</td>
+                            <td>:</td>
+                            <td>user1</td>
+                        </tr>
+                        <tr>
+                            <td>password</td>
+                            <td>:</td>
+                            <td>jalanjalan</td>
+                        </tr>
+                    </table>
+                </div>
+            </div><hr>
+        </div>
+
+    <!-- END GRID -->
+    </div><br>
+
+<!-- END w3-content -->
+</div>
+</body>
+</html>

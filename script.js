@@ -42,7 +42,7 @@ $(document).ready(function(){
     });
 
     var typed = new Typed(".typing-2", {
-        strings: ["Front End Developer"],
+        strings: ["Front End Developer", "Junior Back End Developer"],
         typeSpeed: 100,
         backSpeed: 60,
         loop: true

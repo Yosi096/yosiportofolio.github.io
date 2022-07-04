@@ -138,7 +138,7 @@
                             <span>MongoDB</span>
                             <span>70%</span>
                         </div>
-                        <div class="line figma"></div>
+                        <div class="line mongo"></div>
                     </div>
                     <div class="bars">
                         <div class="info">
@@ -164,9 +164,9 @@
                     <div class="bars">
                         <div class="info">
                             <span>UI Figma</span>
-                            <span>50%</span>
+                            <span>60%</span>
                         </div>
-                        <div class="line figma"></div>
+                        <div class="line mysql"></div>
                     </div>
                 </div>
             </div>
@@ -239,7 +239,7 @@
     </section>
 
       <!-- project section start -->
-      <section class="project" id="project">
+    <section class="project" id="project">
         <div class="max-width">
             <h2 class="title">My project</h2>
             <div class="carousel owl-carousel">
@@ -248,7 +248,24 @@
                         <img src="images/API27.png" alt="">
                         <div class="text">Back-end</div>
                         <p>Untuk Aplikasi Unit Kegiatan Mahasiswa.</p>
-                        <a href="api.html">Detail</a>
+                        <a href="myukmapi.html">Detail</a>
+                    </div>
+                </div>
+                <!-- <div class="card" >
+                    <div class="box">
+                        <img src="foto2/foto2-1.jpg" alt="">
+                        <div class="text">Android</div>
+                        <p>Stegonografi sederhana.</p>
+                        <a href="foto2.html">Detail</a>
+                        <a href="https://github.com/Yosi096/steganographer">Github</a>
+                    </div>
+                </div> -->
+                <div class="card" >
+                    <div class="box">
+                        <img src="foto2/myukm.png" alt="">
+                        <div class="text">Front-End Web</div>
+                        <p>Aplikasi MyUKM.</p>
+                        <a href="foto4.html">Detail</a>
                     </div>
                 </div>
                 <div class="card">
@@ -260,15 +277,6 @@
                         <a href="files/InfoCov.apk">Download Apk</a>
                         <a href="https://github.com/Yosi096/Pengembangan-Aplikasi-Mobile">Github</a>
 
-                    </div>
-                </div>
-                <div class="card" >
-                    <div class="box">
-                        <img src="foto2/foto2-1.jpg" alt="">
-                        <div class="text">Android</div>
-                        <p>Stegonografi sederhana.</p>
-                        <a href="foto2.html">Detail</a>
-                        <a href="https://github.com/Yosi096/steganographer">Github</a>
                     </div>
                 </div>
             </div>

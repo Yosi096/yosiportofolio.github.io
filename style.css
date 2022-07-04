@@ -78,6 +78,33 @@ section .title::after{
 }
 
 /* navbar styling */
+.navbar2{
+    position: fixed;
+    width: 100%;
+    z-index: 999;
+    padding: 15px 0;
+    font-family: 'Ubuntu', sans-serif;
+    transition: all 0.3s ease;
+    background: #BF4C41;
+}
+.navbar2 .max-width{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.navbar2 .logo a{
+    color: #FCC0C5;
+    font-size: 35px;
+    font-weight: 600;
+}
+.navbar2 .logo a span{
+    color: #BF4C41;
+    transition: all 0.3s ease;
+}
+.navbar2 .logo a span{
+    color: #fff;
+}
+
 .navbar{
     position: fixed;
     width: 100%;
@@ -384,6 +411,10 @@ section .title::after{
 }
 
 .skills-content .right .figma::before{
+    width: 50%;
+}
+
+.skills-content .right .mongo::before{
     width: 70%;
 }
 

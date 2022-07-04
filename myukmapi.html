@@ -1,0 +1,153 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Back-End</title>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Raleway">
+<style>
+body,h1,h2,h3,h4,h5 {font-family: "Raleway", sans-serif}
+body { padding: 50px}
+* {
+      box-sizing: border-box;
+    }
+
+    table {
+      font-family: arial, sans-serif;
+      border-collapse: collapse;
+      width: auto;
+    }
+
+    td {
+      border: 1px solid #000;
+      text-align: left;
+      padding: 8px;
+      font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    }
+
+    th {
+      border: 1px solid #000;
+      text-align: center;
+      padding: 8px;
+      font-family: 'Courier New', Courier, monospace;
+      background-color: #dddddd;
+      font-size: 20px;
+    }
+
+    tr:nth-child(even) {
+      background-color: #fff;
+    }
+</style>
+</head>
+<body class="w3-light-grey">
+<div class="w3-content" style="max-width:1400px">
+    <!-- Header -->
+    <header class="w3-container w3-center w3-padding-32"> 
+    <h1><b>Back-End MyUKM</b></h1>
+    <!-- <p>Welcome to the blog of <span class="w3-tag">unknown</span></p> -->
+    </header>
+
+    <!-- Grid -->
+    <div class="w3-row">
+
+        <!-- Blog entries -->
+        <div class="w3-col l8 s12">
+        <!-- Blog entry -->
+        <div class="w3-card-4 w3-margin w3-white">
+            <div class="w3-container">
+            <h3><b>Tentang</b></h3>
+            </div>
+
+            <div class="w3-container">
+            <p>Aplikasi MyUKM merupakan project Tugas Akhir, yang dikerjakan secara berkelompok dengan 3 orang yang terbagi menjadi UI/UX Desaign, Front-End dan Back-End. Pada bagian Back-End, aplikasi dibuat dengan menggunakan ExpressJs dan database MongoDB.
+            </p>
+            </div>
+        </div>
+        <hr>
+
+        <!-- Blog entry -->
+        <div class="w3-card-4 w3-margin w3-white">
+            <div class="w3-container">
+            <h3><b>Deskripsi</b></h3>
+            </div>
+
+            <div class="w3-container">
+                <p class="text_judul">Berikut ini merupakan beberapa endpoint yang dapat diakses dari total 70 endpoint yang telah saya buat sebelumnya pada tugas akhir saya.
+                    Endpoint ini merupakan endpoint yang digunakan untuk aplikasi Unit Kegiatan Mahasiswa Institut Teknologi Sumatera.
+                </p>
+                
+                <table style="margin-bottom:20px;">
+                    <tr>
+                      <th>No.</th>
+                      <th>API</th>
+                    </tr>
+                    <tr>
+                      <td>1</td>
+                      <td><a href="https://myukmapi.herokuapp.com/api/v1/ukm/regismember/getAllRegisMember">{{host}}/api/v1/ukm/regismember/getAllRegisMember</a></td>
+                    </tr>
+                    <tr>
+                      <td>2</td>
+                      <td><a href="https://myukmapi.herokuapp.com/api/v1/ukm/criticism/getAllCriticism">{{host}}/api/v1/ukm/critics/getAllCritics</a></td>
+                    </tr>
+                    <tr>
+                      <td>3</td>
+                      <td><a href="https://myukmapi.herokuapp.com/api/v1/ukm/announcement/getAllAnnoun">{{host}}/api/v1/ukm/announcement/getAllAnnoun</a></td>
+                    </tr>
+                    <tr>
+                      <td>4</td>
+                      <td><a href="https://myukmapi.herokuapp.com/api/v1/ukm/news/getAllNews">{{host}}/api/v1/ukm/news/getAllNews</a></td>
+                    </tr>
+                    <tr>
+                      <td>5</td>
+                      <td><a href="https://myukmapi.herokuapp.com/api/v1/ukm/news/newsAnnoun">{{host}}/api/v1/ukm/news/newsAnnoun</a></td>
+                    </tr>
+                    <tr>
+                      <td>6</td>
+                      <td><a href="https://myukmapi.herokuapp.com/api/v1/users/all">{{host}}/api/v1/users/all</a></td>
+                    </tr>
+                    <tr>
+                      <td>7</td>
+                      <td><a href="https://myukmapi.herokuapp.com/api/v1/ukm/search/members?nama=user">{{host}}/api/v1/ukm/search/members?nama=user</a></td>
+                    </tr>
+                    <tr>
+                      <td>8</td>
+                      <td><a href="https://myukmapi.herokuapp.com/api/v1/ukm/search/criticism?jdl_kritik=event">{{host}}/api/v1/ukm/search/criticism?jdl_kritik=event</a></td>
+                    </tr>
+                </table>
+            </div>
+        </div>
+        <!-- END BLOG ENTRIES -->
+        </div>
+
+        <!-- Introduction menu -->
+        <div class="w3-col l4">
+            <div class="w3-card w3-margin w3-margin-top">
+                <img src="images/response1.png" alt="" style="width:100%">
+
+                    <div class="w3-container w3-white">
+                        <h6><b>Respon API 1  </b></h6>
+                    </div>
+            </div><hr>
+            <!-- END Introduction Menu -->
+        </div>
+
+        <!-- Introduction menu -->
+        <div class="w3-col l4">
+            <div class="w3-card w3-margin w3-margin-top">
+                <img src="images/response2.png" alt="" style="width:100%">
+
+                    <div class="w3-container w3-white">
+                        <h6><b>Respon API 2 </b></h6>
+                    </div>
+            </div><hr>
+            <!-- END Introduction Menu -->
+        </div>
+
+    <!-- END GRID -->
+    </div><br>
+
+<!-- END w3-content -->
+</div>
+</body>
+</html>
