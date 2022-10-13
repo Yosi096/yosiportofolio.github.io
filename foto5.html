@@ -1,0 +1,142 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Full Stack Web Development</title>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Raleway">
+<style>
+body,h1,h2,h3,h4,h5 {font-family: "Raleway", sans-serif}
+body { padding: 50px}
+</style>
+</head>
+<body class="w3-light-grey">
+<div class="w3-content" style="max-width:1400px">
+    <!-- Header -->
+    <header class="w3-container w3-center w3-padding-32"> 
+    <h1><b>Aplikasi MyNotes</b></h1>
+    <!-- <p>Welcome to the blog of <span class="w3-tag">unknown</span></p> -->
+    </header>
+
+    <!-- Grid -->
+    <div class="w3-row">
+
+        <!-- Blog entries -->
+        <div class="w3-col l8 s12">
+        <!-- Blog entry -->
+        <div class="w3-card-4 w3-margin w3-white">
+            <div class="w3-container">
+            <h3><b>Deskripsi Aplikasi</b></h3>
+            </div>
+
+            <div class="w3-container">
+            <p>Aplikasi MyNotes merupakan aplikasi sederhana yang saya kerjakan diwaktu luang sebagai bahan untuk latihan atau belajar mandiri. Sebenarnya saya mendapatkan ide aplikasi ini karena permasalahan yang saya hadapi ketika kuliah, namun yang saya buat ini masih sangat sederhana dari yang saya inginkan. 
+                <br><br>Aplikasi ini dibuat menggunakan framework Nuxt js untuk sisi Front-End. Sedangkan untuk sisi Back-End menggunakan framework Express js dengan database mongo. Pengguna MyUKM terbagi menjadi 2 role yaitu : User dan Admin,
+            </p>
+            </div>
+        </div>
+        <hr>
+
+        <!-- Blog entry -->
+        <div class="w3-card-4 w3-margin w3-white">
+            <div class="w3-container">
+            <h3><b>Deskripsi Menu</b></h3>
+            </div>
+
+            <div class="w3-container">
+            <p>Terdapat beberapa perbedaan menu untuk setiap role. Namun untuk menu Home selalu sama pada setiap role, yang mana pada menu ini menampilkan berita dan pengumuman. Berikut penjelasannya :
+                <ol>
+                    <li>Role Admin</li>
+                        <ul>
+                            <li>Pada role ini, admin dapat menghapus dan mengubah role user.</li>
+                        </ul>
+                    <li>Role User</li>
+                        <ul>
+                            <li>Menu Utama</li>
+                                Pada menu utama terdapat menu To-Do, Note dan Schedule. User dapat melakukan aksi CRUD sederhana.<br>
+                                Kedepannya pada menu ini akan terus saya kembangkan mulai dari dapat upload file baik berupa gambar maupun pdf. Ada notif pengingat dan lain sebagainya.
+                            <li>Menu Upload File</li>
+                                Pada menu upload file terbagi menjadi dua yaitu upload gambar dan upload file. untuk saat ini menu ini masih dalam tahap pembuatan.
+                            <li>Menu Master</li>
+                                Pada menu ini terdapat beberapa menu salah satunya adalah tipe catatan. Pada setiap menu dapat melakukan aksi CRUD.
+                            <li>Menu Baru</li>
+                                Tidak menutup kemungkinan saya akan menambah menu-menu baru apabila terdapat ide.
+                        </ul>
+                </ol>
+            </p>
+            <div class="w3-row">
+                <div class="w3-col m8 s12">
+                <p><a href="https://adminukm.herokuapp.com/" class="w3-button w3-padding-large w3-white w3-border"><b>Lihat Web MyUKM »</b></a></p>
+                </div>
+            </div>
+            </div>
+        </div>
+        <!-- END BLOG ENTRIES -->
+        </div>
+
+        <!-- Introduction menu -->
+        <div class="w3-col l4">
+            <!-- About Card -->
+            <div class="w3-card w3-margin w3-margin-top">
+                <img src="images/note_login.png" alt="" style="width:100%">
+            
+                <div class="w3-container w3-white">
+                    <h6><b>Halaman Login</b></h6>
+                </div>
+            </div><hr>
+        </div>
+
+        <div class="w3-col l4">
+            <!-- About Card -->
+            <div class="w3-card w3-margin w3-margin-top">
+                <img src="images/note_admin.png" alt="" style="width:100%">
+
+                    <div class="w3-container w3-white">
+                    <h6><b>Home Admin</b></h6>
+                    <table style="margin-bottom:10px;">
+                        <tr>
+                            <td>username</td>
+                            <td>:</td>
+                            <td>admin01</td>
+                        </tr>
+                        <tr>
+                            <td>password</td>
+                            <td>:</td>
+                            <td>jalanjalan</td>
+                        </tr>
+                    </table>
+                    </div>
+            </div><hr>
+            <!-- END Introduction Menu -->
+        </div>
+
+        <div class="w3-col l4">
+            <!-- About Card -->
+            <div class="w3-card w3-margin w3-margin-top">
+                <img src="images/note.png" alt="" style="width:100%">
+            
+                <div class="w3-container w3-white">
+                    <h6><b>Home User</b></h6>
+                    <table style="margin-bottom:10px;">
+                        <tr>
+                            <td>username</td>
+                            <td>:</td>
+                            <td>user04</td>
+                        </tr>
+                        <tr>
+                            <td>password</td>
+                            <td>:</td>
+                            <td>jalanjalan</td>
+                        </tr>
+                    </table>
+                </div>
+            </div><hr>
+        </div>
+    <!-- END GRID -->
+    </div><br>
+
+<!-- END w3-content -->
+</div>
+</body>
+</html>

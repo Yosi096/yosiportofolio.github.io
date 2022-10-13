@@ -76,6 +76,13 @@
             <div class="serv-content">
                 <div class="card">
                     <div class="box">
+                        <i class="fas fa-blog"></i>
+                        <div class="text">Front-End Web</div>
+                        <p>Dengan menggunakan HTML/PHP/JS, Framework CI. React JS. Nuxt JS.</p>
+                    </div>
+                </div>
+                <div class="card">
+                    <div class="box">
                         <i class="fas fa-code"></i>
                         <div class="text">Backend</div>
                         <p>Dengan menggunakan Node.js Framework Expres.js dan database MongoDB</p>
@@ -83,16 +90,9 @@
                 </div>
                 <div class="card">
                     <div class="box">
-                        <i class="fas fa-blog"></i>
-                        <div class="text">Front-End Web</div>
-                        <p>Dengan menggunakan HTML/PHP/JS, Framework CI.</p>
-                    </div>
-                </div>
-                <div class="card">
-                    <div class="box">
                         <i class="fab fa-android"></i>
                         <div class="text">Android</div>
-                        <p>Front-end android sederhana menggunakan Android Studio dengan Java.</p>
+                        <p>Aplikasi sederhana menggunakan Android Studio dengan Java.</p>
                     </div>
                 </div>
                </div>
@@ -115,9 +115,16 @@
                     <div class="bars">
                         <div class="info">
                             <span>JavaScript</span>
-                            <span>85%</span>
+                            <span>80%</span>
                         </div>
-                        <div class="line js"></div>
+                        <div class="line php"></div>
+                    </div>
+                    <div class="bars">
+                        <div class="info">
+                            <span>jQuery</span>
+                            <span>80%</span>
+                        </div>
+                        <div class="line php"></div>
                     </div>
                     <div class="bars">
                         <div class="info">
@@ -128,10 +135,17 @@
                     </div>
                     <div class="bars">
                         <div class="info">
-                            <span>ReactJs</span>
+                            <span>React Js</span>
                             <span>75%</span>
                         </div>
                         <div class="line reactjs"></div>
+                    </div>
+                    <div class="bars">
+                        <div class="info">
+                            <span>Vue.js</span>
+                            <span>70%</span>
+                        </div>
+                        <div class="line mongo"></div>
                     </div>
                     <div class="bars">
                         <div class="info">
@@ -156,18 +170,18 @@
                     </div>
                     <div class="bars">
                         <div class="info">
-                            <span>MySQL</span>
+                            <span>SQL</span>
                             <span>60%</span>
                         </div>
                         <div class="line mysql"></div>
                     </div>
-                    <div class="bars">
+                    <!-- <div class="bars">
                         <div class="info">
                             <span>UI Figma</span>
                             <span>60%</span>
                         </div>
                         <div class="line mysql"></div>
-                    </div>
+                    </div> -->
                 </div>
             </div>
         </div>
@@ -243,7 +257,15 @@
         <div class="max-width">
             <h2 class="title">My project</h2>
             <div class="carousel owl-carousel">
-            <div class="card">
+                <div class="card">
+                    <div class="box">
+                        <img src="images/au1.png" alt="">
+                        <div class="text">Front-End Web</div>
+                        <p>Sisfopers.</p>
+                        <a href="foto6.html">Detail</a>
+                    </div>
+                </div>
+                <div class="card">
                     <div class="box">
                         <img src="images/API27.png" alt="">
                         <div class="text">Back-end</div>
@@ -268,6 +290,14 @@
                         <a href="foto4.html">Detail</a>
                     </div>
                 </div>
+                <div class="card" >
+                    <div class="box">
+                        <img src="images/note_login1.png" alt="">
+                        <div class="text">Full Stack Web Development</div>
+                        <p>Aplikasi MyNote.</p>
+                        <a href="foto5.html">Detail</a>
+                    </div>
+                </div>
                 <div class="card">
                     <div class="box">
                         <img src="images/andro-1.jpg" alt="">
@@ -276,7 +306,6 @@
                         <a href="foto1.html">Detail</a>
                         <a href="files/InfoCov.apk">Download Apk</a>
                         <a href="https://github.com/Yosi096/Pengembangan-Aplikasi-Mobile">Github</a>
-
                     </div>
                 </div>
             </div>
@@ -291,33 +320,39 @@
                 <div class="column center">
                     <!-- <div class="text">Get in Touch</div> -->
                     <div class="icons">
-                        <div class="row">
+                        <!-- <div class="row">
                             <i class="fas fa-user"></i>
                             <div class="info">
                                 <div class="head">Name</div>
                                 <div class="sub-title">Yosi Mardianti</div>
                             </div>
-                        </div>
+                        </div> -->
                         <div class="row">
                             <i class="fas fa-map-marker-alt"></i>
                             <div class="info">
                                 <div class="head">Address</div>
-                                <div class="sub-title">Bandar Lampung, Lampung</div>
+                                <div class="sub-title">Kemayoran, Jakarta Pusat</div>
                             </div>
                         </div>
                         <div class="row">
                             <i class="fas fa-envelope"></i>
                             <div class="info">
                                 <div class="head">Email</div>
-                                <div class="sub-title">yorermrs@gmail.com</div>
+                                <div class="sub-title">yorermrd@gmail.com</div>
                             </div>
                         </div>
                         <div class="row">
-                            <!-- <i class="fa fa-linkedin"></i> -->
                             <i class="fab fa-linkedin-in"></i>
                             <div class="info">
                                 <div class="head">Linkedin</div>
                                 <div class="sub-title">https://www.linkedin.com/in/yosi-mardianti</div>
+                            </div>
+                        </div>
+                        <div class="row">
+                            <i class="far fa-comment"></i>
+                            <div class="info">
+                                <div class="head">WhatsApp</div>
+                                <div class="sub-title">0822-7996-1277</div>
                             </div>
                         </div>
                     </div>
