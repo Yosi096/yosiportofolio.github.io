@@ -265,6 +265,14 @@
                         <a href="foto6.html">Detail</a>
                     </div>
                 </div>
+                <div class="card" >
+                    <div class="box">
+                        <img src="images/note_login1.png" alt="">
+                        <div class="text">Full Stack Web Development</div>
+                        <p>Aplikasi MyNote.</p>
+                        <a href="foto5.html">Detail</a>
+                    </div>
+                </div>
                 <div class="card">
                     <div class="box">
                         <img src="images/API27.png" alt="">
@@ -288,14 +296,6 @@
                         <div class="text">Front-End Web</div>
                         <p>Aplikasi MyUKM.</p>
                         <a href="foto4.html">Detail</a>
-                    </div>
-                </div>
-                <div class="card" >
-                    <div class="box">
-                        <img src="images/note_login1.png" alt="">
-                        <div class="text">Full Stack Web Development</div>
-                        <p>Aplikasi MyNote.</p>
-                        <a href="foto5.html">Detail</a>
                     </div>
                 </div>
                 <div class="card">
