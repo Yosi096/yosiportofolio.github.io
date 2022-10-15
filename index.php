@@ -63,7 +63,7 @@
                         Setelah lulus saya memutuskan untuk lebih fokus ke front-end developer khususnya web. Pada akhir Agustus 2021 saya memulai pekerjaan pertama saya yaitu sebagai <b><i>Front-End Developer</i></b> di salah satu perusahaan yg terletak di Jakarta Pusat. 
                         <!-- Saat ini saya masih mencari perkerjaan dan mengasah <i>skill</i> saya dengan mengikuti beberapa pelatihan yang ada seperti BPPTIK, Digital Talent dll serta dengan belajar mandiri. Untuk fokus kemampuan yang saya asah yaitu <i>Back-end, UX Researcher</i> dan <i>Scrum Master</i> -->
                     </p>
-                    <a href="files/cvyosi.pdf">Lihat CV</a>
+                    <a href="files/cvyosi.pdf" target="_blank">Lihat CV</a>
                 </div>
             </div>
         </div>
@@ -197,7 +197,7 @@
                         <img src="images/sertif-1.jpg" alt="">
                         <div class="text">Huawei Certification</div>
                         <p>Routing and Switching.</p>
-                        <a href="images/sertif-1.jpg">Detail</a>
+                        <a href="images/sertif-1.jpg" target="_blank">Detail</a>
                     </div>
                 </div>
                 <div class="card">
@@ -205,7 +205,7 @@
                         <img src="images/sertif-5.jpg" alt="">
                         <div class="text">Coursera</div>
                         <p>Build an E-commerce Dashbord With Figma.</p>
-                        <a href="images/sertif-5.jpg">Detail</a>
+                        <a href="images/sertif-5.jpg" target="_blank">Detail</a>
                     </div>
                 </div>
                 <div class="card" >
@@ -213,7 +213,7 @@
                         <img src="images/sertif-3.jpg" alt="">
                         <div class="text">Pelatihan BPPTIK</div>
                         <p>Junior Network Administrator.</p>
-                        <a href="images/sertif-3.jpg">Detail</a>
+                        <a href="images/sertif-3.jpg" target="_blank">Detail</a>
                     </div>
                 </div>
                 <div class="card">
@@ -221,7 +221,7 @@
                         <img src="images/sertif-2.jpg" alt="">
                         <div class="text">Pelatihan BPPTIK</div>
                         <p>Junior Web Developer.</p>
-                        <a href="images/sertif-2.jpg">Detail</a>
+                        <a href="images/sertif-2.jpg" target="_blank">Detail</a>
                     </div>
                 </div>
                 <div class="card">
@@ -229,7 +229,7 @@
                         <img src="images/sertif-4.jpg" alt="">
                         <div class="text">Pelatihan BPPTIK</div>
                         <p>Junior Office Operator</p>
-                        <a href="images/sertif-4.jpg">Detail</a>
+                        <a href="images/sertif-4.jpg" target="_blank">Detail</a>
                     </div>
                 </div>
                 <div class="card">
@@ -237,7 +237,7 @@
                         <img src="images/sertif-7.jpg" alt="">
                         <div class="text">Progate</div>
                         <p>Kursus HTML dan CSS.</p>
-                        <a href="images/sertif-7.jpg">Detail</a>
+                        <a href="images/sertif-7.jpg" target="_blank">Detail</a>
                     </div>
                 </div>
                 <div class="card">
@@ -245,7 +245,7 @@
                         <img src="images/sertif-6.jpg" alt="">
                         <div class="text">Sertifikat Kompeten</div>
                         <p>Kompetensi Keahlian Kejuruan.</p>
-                        <a href="images/sertif-6.jpg">Detail</a>
+                        <a href="images/sertif-6.jpg" target="_blank">Detail</a>
                     </div>
                 </div>
             </div>
@@ -262,15 +262,23 @@
                         <img src="images/au1.png" alt="">
                         <div class="text">Front-End Web</div>
                         <p>Sisfopers.</p>
-                        <a href="foto6.html">Detail</a>
+                        <a href="data6.html">Detail</a>
+                    </div>
+                </div>
+                <div class="card" >
+                    <div class="box">
+                        <img src="foto2/myukm.png" alt="">
+                        <div class="text">Front-End Web</div>
+                        <p>Aplikasi MyUKM.</p>
+                        <a href="data4.html">Detail</a>
                     </div>
                 </div>
                 <div class="card" >
                     <div class="box">
                         <img src="images/note_login1.png" alt="">
-                        <div class="text">Full Stack Web Development</div>
+                        <div class="text">Full Stack Web</div>
                         <p>Aplikasi MyNote.</p>
-                        <a href="foto5.html">Detail</a>
+                        <a href="data5.html">Detail</a>
                     </div>
                 </div>
                 <div class="card">
@@ -290,22 +298,12 @@
                         <a href="https://github.com/Yosi096/steganographer">Github</a>
                     </div>
                 </div> -->
-                <div class="card" >
-                    <div class="box">
-                        <img src="foto2/myukm.png" alt="">
-                        <div class="text">Front-End Web</div>
-                        <p>Aplikasi MyUKM.</p>
-                        <a href="foto4.html">Detail</a>
-                    </div>
-                </div>
                 <div class="card">
                     <div class="box">
                         <img src="images/andro-1.jpg" alt="">
                         <div class="text">Android</div>
                         <p>Sistem informasi Covid-19.</p>
-                        <a href="foto1.html">Detail</a>
-                        <a href="files/InfoCov.apk">Download Apk</a>
-                        <a href="https://github.com/Yosi096/Pengembangan-Aplikasi-Mobile">Github</a>
+                        <a href="data1.html">Detail</a>
                     </div>
                 </div>
             </div>
