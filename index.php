@@ -275,7 +275,7 @@
                 </div>
                 <div class="card" >
                     <div class="box">
-                        <img src="images/note_login1.png" alt="">
+                        <img src="images/regis_myno.png" alt="">
                         <div class="text">Full Stack Web</div>
                         <p>Aplikasi MyNote.</p>
                         <a href="data7.html">Detail</a>
