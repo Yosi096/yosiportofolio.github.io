@@ -135,14 +135,14 @@
                     </div>
                     <div class="bars">
                         <div class="info">
-                            <span>React Js</span>
-                            <span>75%</span>
+                            <span>Vue Js</span>
+                            <span>80%</span>
                         </div>
-                        <div class="line reactjs"></div>
+                        <div class="line php"></div>
                     </div>
                     <div class="bars">
                         <div class="info">
-                            <span>Vue.js</span>
+                            <span>React js</span>
                             <span>70%</span>
                         </div>
                         <div class="line mongo"></div>
@@ -278,7 +278,7 @@
                         <img src="images/note_login1.png" alt="">
                         <div class="text">Full Stack Web</div>
                         <p>Aplikasi MyNote.</p>
-                        <a href="data5.html">Detail</a>
+                        <a href="data7.html">Detail</a>
                     </div>
                 </div>
                 <div class="card">

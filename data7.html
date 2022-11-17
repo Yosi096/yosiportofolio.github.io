@@ -31,8 +31,9 @@ body { padding: 50px}
             </div>
 
             <div class="w3-container">
-            <p>Aplikasi MyNotes sama dengan aplikasi MyNotes sebelumnya yang membedakan hanya penggunaan nuxt dan metronic saja pada sisi frontend.
-                <br><br>Pada aplikasi ini untuk hak akses menu sudah dikerjakan.
+            <p>Aplikasi MyNotes merupakan aplikasi sederhana yang saya kerjakan diwaktu luang sebagai bahan untuk latihan atau belajar mandiri. Sebenarnya saya mendapatkan ide aplikasi ini karena permasalahan yang saya hadapi ketika kuliah, namun yang saya buat ini masih sangat sederhana dari yang saya inginkan. 
+                <br><br>Aplikasi ini dibuat menggunakan metronic vue untuk sisi Front-End. Sedangkan untuk sisi Back-End menggunakan framework Express js dengan database mongo. Pengguna MyUKM terbagi menjadi 2 role yaitu : User dan Admin,
+                <br><br>Pada aplikasi ini untuk hak akses menu masih tahap pengerjaan.
             </p>
             </div>
         </div>
@@ -45,7 +46,7 @@ body { padding: 50px}
             </div>
 
             <div class="w3-container">
-            <p>Terdapat beberapa perbedaan menu untuk setiap role. Namun untuk menu Home selalu sama pada setiap role, yang mana pada menu ini menampilkan total data yang telah dibuat masing-masing user dan untuk admin menampilkan seluruh total.
+            <p>Terdapat beberapa perbedaan menu untuk setiap role. Namun untuk menu Home selalu sama pada setiap role, yang mana pada menu ini menampilkan total data yang telah dibuat masing-masing user dan untuk admin menampilkan seluruh total. Selain itu di home menampilkan data seluruh admin yang ada. Berikut penjelasannya :
                 <ol>
                     <li>Role Admin</li>
                         <ul>
@@ -65,9 +66,10 @@ body { padding: 50px}
                         </ul>
                 </ol>
             </p>
+            <p>Hampir disetiap menu terdapat aksi untuk export data baik dalam bentuk pdf maupun excel. Untuk detail aplikasi hanya bisa saya tampilkan lewat hasil capture, dikarenakan terdapat masalah ketika mau di push ke heroku.</p>
             <div class="w3-row">
                 <div class="w3-col m8 s12">
-                <p><a target="_blank" href="https://femynotes.herokuapp.com/" class="w3-button w3-padding-large w3-white w3-border"><b>Lihat Web MyNotes »</b></a></p>
+                <p><a target="_blank" href="data5.html" class="w3-button w3-padding-large w3-white w3-border"><b>Lihat Versi Nuxt JS»</b></a></p>
                 </div>
             </div>
             </div>
@@ -79,10 +81,23 @@ body { padding: 50px}
         <div class="w3-col l4">
             <!-- About Card -->
             <div class="w3-card w3-margin w3-margin-top">
-                <img src="images/note_login.png" alt="" style="width:100%">
+                <img src="images/login_myno.png" alt="" style="width:100%">
             
                 <div class="w3-container w3-white">
-                    <h6><b>Halaman Login</b></h6>
+                    <h6><b>Login Page</b></h6>
+                    
+                    <table style="margin-bottom:10px;">
+                        <tr>
+                            <td>username</td>
+                            <td>:</td>
+                            <td>user01</td>
+                        </tr>
+                        <tr>
+                            <td>password</td>
+                            <td>:</td>
+                            <td>makanmalam</td>
+                        </tr>
+                    </table>
                 </div>
             </div><hr>
         </div>
@@ -90,22 +105,10 @@ body { padding: 50px}
         <div class="w3-col l4">
             <!-- About Card -->
             <div class="w3-card w3-margin w3-margin-top">
-                <img src="images/note_admin.png" alt="" style="width:100%">
+                <img src="images/regis_myno.png" alt="" style="width:100%">
 
                     <div class="w3-container w3-white">
-                    <h6><b>Home Admin</b></h6>
-                    <table style="margin-bottom:10px;">
-                        <tr>
-                            <td>username</td>
-                            <td>:</td>
-                            <td>admin01</td>
-                        </tr>
-                        <tr>
-                            <td>password</td>
-                            <td>:</td>
-                            <td>jalanjalan</td>
-                        </tr>
-                    </table>
+                    <h6><b>Register Page</b></h6>
                     </div>
             </div><hr>
             <!-- END Introduction Menu -->
@@ -114,22 +117,43 @@ body { padding: 50px}
         <div class="w3-col l4">
             <!-- About Card -->
             <div class="w3-card w3-margin w3-margin-top">
-                <img src="images/note.png" alt="" style="width:100%">
+                <img src="images/homepage_myno.png" alt="" style="width:100%">
             
                 <div class="w3-container w3-white">
-                    <h6><b>Home User</b></h6>
-                    <table style="margin-bottom:10px;">
-                        <tr>
-                            <td>username</td>
-                            <td>:</td>
-                            <td>user04</td>
-                        </tr>
-                        <tr>
-                            <td>password</td>
-                            <td>:</td>
-                            <td>jalanjalan</td>
-                        </tr>
-                    </table>
+                    <h6><b>Homepage</b></h6>
+                </div>
+            </div><hr>
+        </div>
+
+        <div class="w3-col l4">
+            <!-- About Card -->
+            <div class="w3-card w3-margin w3-margin-top">
+                <img src="images/todopage.png" alt="" style="width:100%">
+            
+                <div class="w3-container w3-white">
+                    <h6><b>ToDo Page</b></h6>
+                </div>
+            </div><hr>
+        </div>
+
+        <div class="w3-col l4">
+            <!-- About Card -->
+            <div class="w3-card w3-margin w3-margin-top">
+                <img src="images/mydaypage.png" alt="" style="width:100%">
+            
+                <div class="w3-container w3-white">
+                    <h6><b>MyDay Page</b></h6>
+                </div>
+            </div><hr>
+        </div>
+
+        <div class="w3-col l4">
+            <!-- About Card -->
+            <div class="w3-card w3-margin w3-margin-top">
+                <img src="images/masterpage.png" alt="" style="width:100%">
+            
+                <div class="w3-container w3-white">
+                    <h6><b>Master Subject Type</b></h6>
                 </div>
             </div><hr>
         </div>
